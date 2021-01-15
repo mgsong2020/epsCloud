@@ -15,10 +15,10 @@ public class ServiceNameConstants
     /**
      * 系统模块的serviceid
      */
-    public static final String SYSTEM_SERVICE = "eps-system";
+    public static final String SYSTEM_SERVICE = "eps-modules-system";
 
     /**
      * 文件服务的serviceid
      */
-    public static final String FILE_SERVICE = "eps-file";
+    public static final String FILE_SERVICE = "eps-modules-file";
 }

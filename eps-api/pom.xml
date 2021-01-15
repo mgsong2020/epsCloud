@@ -10,6 +10,7 @@
 
     <modules>
         <module>eps-api-system</module>
+        <module>eps-api-console</module>
     </modules>
 
     <artifactId>eps-api</artifactId>

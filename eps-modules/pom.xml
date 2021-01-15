@@ -9,10 +9,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
-        <module>eps-system</module>
-        <module>eps-gen</module>
-        <module>eps-job</module>
-        <module>eps-file</module>
+        <module>eps-modules-system</module>
+        <module>eps-modules-gen</module>
+        <module>eps-modules-job</module>
+        <module>eps-modules-file</module>
+        <module>eps-modules-console</module>
     </modules>
 
     <artifactId>eps-modules</artifactId>

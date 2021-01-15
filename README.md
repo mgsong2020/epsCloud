@@ -14,6 +14,7 @@ com.eps
 ├── eps-auth            // 认证中心 [9200]
 ├── eps-api             // 接口模块
 │       └── eps-api-system                          // 系统接口
+│       └── eps-api-console                         // 后台接口
 ├── eps-common          // 通用模块
 │       └── eps-common-core                         // 核心模块
 │       └── eps-common-datascope                    // 权限范围
@@ -22,10 +23,11 @@ com.eps
 │       └── eps-common-security                     // 安全模块
 │       └── eps-common-swagger                      // 系统接口
 ├── eps-modules         // 业务模块
-│       └── eps-system                              // 系统模块 [9201]
-│       └── eps-gen                                 // 代码生成 [9202]
-│       └── eps-job                                 // 定时任务 [9203]
-│       └── eps-file                                // 文件服务 [9300]
+│       └── eps-modules-system                              // 系统模块 [9201]
+│       └── eps-modules-gen                                 // 代码生成 [9202]
+│       └── eps-modules-job                                 // 定时任务 [9203]
+│       └── eps-modules-console                             // 后台模块 [9204]
+│       └── eps-modules-file                                // 文件服务 [9300]
 ├── eps-visual          // 图形化管理模块
 │       └── eps-visual-monitor                      // 监控中心 [9100]
 ├──pom.xml                // 公共依赖
