@@ -10,7 +10,7 @@
 
     <name>eps</name>
     <url>http://www.eps.vip</url>
-    <description>若依微服务系统</description>
+    <description>eps微服务系统</description>
 
     <properties>
         <eps.version>2.3.0</eps.version>
@@ -201,6 +201,13 @@
             <dependency>
                 <groupId>com.eps</groupId>
                 <artifactId>eps-api-system</artifactId>
+                <version>${eps.version}</version>
+            </dependency>
+
+            <!-- 后台接口 -->
+            <dependency>
+                <groupId>com.eps</groupId>
+                <artifactId>eps-api-console</artifactId>
                 <version>${eps.version}</version>
             </dependency>
 			

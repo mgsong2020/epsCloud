@@ -1,13 +1,13 @@
 package com.eps.gen.util;
 
-import java.util.Arrays;
-
+import com.eps.common.core.constant.GenConstants;
+import com.eps.common.core.utils.StringUtils;
 import com.eps.gen.config.GenConfig;
 import com.eps.gen.domain.GenTable;
 import com.eps.gen.domain.GenTableColumn;
 import org.apache.commons.lang3.RegExUtils;
-import com.eps.common.core.constant.GenConstants;
-import com.eps.common.core.utils.StringUtils;
+
+import java.util.Arrays;
 
 /**
  * 代码生成器 工具类
@@ -211,7 +211,7 @@ public class GenUtils
      */
     public static String replaceText(String text)
     {
-        return RegExUtils.replaceAll(text, "(?:表|若依)", "");
+        return RegExUtils.replaceAll(text, "(?:表|EPS)", "");
     }
 
     /**

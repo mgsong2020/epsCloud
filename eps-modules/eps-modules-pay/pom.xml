@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 	
-    <artifactId>eps-modules-console</artifactId>
+    <artifactId>eps-modules-pay</artifactId>
 
     <description>
-        eps-modules-console后台模块
+        eps-modules-pay支付业务模块
     </description>
 	
     <dependencies>
@@ -71,11 +71,12 @@
             <groupId>com.eps</groupId>
             <artifactId>eps-common-swagger</artifactId>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.belerweb/pinyin4j -->
         <dependency>
-            <groupId>com.eps</groupId>
-            <artifactId>eps-api-console</artifactId>
-            <version>2.3.0</version>
-            <scope>compile</scope>
+            <groupId>com.belerweb</groupId>
+            <artifactId>pinyin4j</artifactId>
+            <version>2.5.0</version>
         </dependency>
 
     </dependencies>

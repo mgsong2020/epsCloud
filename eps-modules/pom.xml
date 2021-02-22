@@ -14,6 +14,7 @@
         <module>eps-modules-job</module>
         <module>eps-modules-file</module>
         <module>eps-modules-console</module>
+        <module>eps-modules-pay</module>
     </modules>
 
     <artifactId>eps-modules</artifactId>

@@ -7,7 +7,7 @@ import com.eps.common.security.annotation.EnableRyFeignClients;
 import com.eps.common.swagger.annotation.EnableCustomSwagger2;
 
 /**
- * 系统模块
+ * 后台模块
  * 
  * @author liuizhimin
  */
@@ -20,7 +20,7 @@ public class EpsConsoleApplication
     public static void main(String[] args)
     {
         SpringApplication.run(EpsConsoleApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  系统模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
+        System.out.println("(♥◠‿◠)ﾉﾞ  后台模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
                 " | ( ' )  |       \\  _. /  '       \n" +

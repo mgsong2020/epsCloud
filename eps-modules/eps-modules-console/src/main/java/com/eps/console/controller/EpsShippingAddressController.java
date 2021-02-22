@@ -54,6 +54,8 @@ public class EpsShippingAddressController extends BaseController
     @PostMapping("/export")
     public void export(HttpServletResponse response, EpsShippingAddress epsShippingAddress) throws IOException
     {
+        Long userId = SecurityUtils.getUserId();
+        epsShippingAddress.setUserId(userId);
         List<EpsShippingAddress> list = epsShippingAddressService.selectEpsShippingAddressList(epsShippingAddress);
         ExcelUtil<EpsShippingAddress> util = new ExcelUtil<EpsShippingAddress>(EpsShippingAddress.class);
         util.exportExcel(response, list, "address");

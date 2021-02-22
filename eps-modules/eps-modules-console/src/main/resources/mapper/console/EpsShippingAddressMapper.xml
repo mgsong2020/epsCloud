@@ -40,6 +40,7 @@
             <if test="hasDefault != null and hasDefault != ''"> and has_default = #{hasDefault}</if>
             <if test="userId != null"> and user_id = #{userId}</if>
         </where>
+         order by has_default desc
     </select>
 
     <select id="selectEpsShippingAddressById" parameterType="Long" resultMap="EpsShippingAddressResult">
